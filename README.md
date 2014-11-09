@@ -34,7 +34,7 @@ Three
 */
 ```
 
-Example of tokenizing by a single character delimiter:
+Example of tokenizing by a single character delimiter by using function 'tokenzc':
 ```c
 char *string = "Thomas,Anderson,1962";
 char delim = ',';
