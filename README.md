@@ -3,7 +3,7 @@ tokenz
 
 Fast string tokenizer library in C.
 
-API documentation is the tokenz.h header file.
+API documentation is in the tokenz.h header file.
 
 Including in your project:
 Just include the tokenz.h file in the files that want to use it and compile your project with tokenz.c .
