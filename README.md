@@ -3,12 +3,16 @@ tokenz
 
 Fast string tokenizer library in C.
 
+Thread safe.
+
 API documentation is in the tokenz.h header file.
 
-Including in your project:
+Including in your project
+-------------------------
 Just include the tokenz.h file in the files that want to use it and compile your project with tokenz.c .
 
-Example of strtok replacement function 'tokenz':
+Example of strtok replacement function 'tokenz'
+-----------------------------------------------
 ```c
 char *string = "Hello, there; Lol.";
 char *delims = " ,.;";
@@ -21,7 +25,8 @@ Lol
 */
 ```
 
-Example of tokenizing by string delimiter using function 'tokenzs':
+Example of tokenizing by string delimiter using function 'tokenzs'
+------------------------------------------------------------------
 ```c
 char *string = "-=--=-One-=-Two-=-Three-=--=-";
 char *delim = "-=-";
@@ -34,7 +39,8 @@ Three
 */
 ```
 
-Example of tokenizing by a single character delimiter by using function 'tokenzc':
+Example of tokenizing by a single character delimiter by using function 'tokenzc'
+---------------------------------------------------------------------------------
 ```c
 char *string = "Thomas,Anderson,1962";
 char delim = ',';
