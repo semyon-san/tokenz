@@ -5,6 +5,8 @@ Fast string tokenizer library in C.
 
 Thread safe.
 
+Does not modify original string.
+
 API documentation is in the tokenz.h header file.
 
 Including in your project
