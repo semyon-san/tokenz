@@ -13,7 +13,7 @@
 
 struct token tokenzc(const char *string, char delim)
 {
-    struct token t = { .begin = '\0', .end = '\0' };
+    struct token t = { .begin = NULL, .end = NULL };
 
     if (string == NULL) return t;
 
